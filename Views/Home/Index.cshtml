@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div id="root"></div>
+
+@section scripts {
+
+    <script src="~/Scripts/react/dist/bundle.js"></script>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Tietokanta app</h2>
+
+        <p>
+            <iframe height="400" width="350" src="https://www.youtube.com/embed/7X8Hp9Os8Dk" frameborder="0" allowfullscreen></iframe>
+           
+
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>PHP kauppasovellus</h2>
+        <p>PHP:lla toteutettu kauppasovellus, jossa käyttäjä pystyy rekisteröitymään ja kirjautumaan palveluun. Palvelussa käyttäjä voi luoda työpyynnön joka menee suoraan adminille. Admin voi  hyväksyä tai hylätä pyynnön ja lähettään vastauksen tästä käyttäjälle. Pyynnöt sisältävät käyttäjän Id:n, tilaajan nimen, tilaus-ja hyväksymispäivämäärät sekä muutamia lisäkenttiä</p>
+        <p><a class="btn btn-default" href="https://dota2.com">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Tännekkin jotain</h2>
+        <p>Kehitteillä</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>
+
